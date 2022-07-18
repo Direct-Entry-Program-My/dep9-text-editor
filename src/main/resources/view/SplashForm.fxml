@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="427.0" prefWidth="600.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashFormController">
+   <children>
+      <AnchorPane layoutX="34.0" layoutY="263.0" style="-fx-background-color: red;">
+         <children>
+            <Label layoutX="350.0" layoutY="57.0" prefHeight="25.0" prefWidth="182.0" text="Banda's Text Editor" textAlignment="CENTER">
+               <font>
+                  <Font name="URWGothic-Book" size="18.0" />
+               </font>
+            </Label>
+            <ProgressBar layoutX="10.0" layoutY="90.0" prefHeight="20.0" prefWidth="513.0" />
+            <Label fx:id="lblStatus" layoutX="226.0" layoutY="110.0" prefHeight="18.0" prefWidth="136.0" text="Loading...." textAlignment="CENTER" />
+            <ImageView fitHeight="57.0" fitWidth="64.0" layoutX="449.0">
+               <image>
+                  <Image url="@../images/TextEditorImage.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="243.0" fitWidth="600.0">
+         <image>
+            <Image url="@../images/splashImage2.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
