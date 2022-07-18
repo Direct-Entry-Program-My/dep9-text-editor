@@ -65,6 +65,6 @@ public class SplashFormController {
         });
 
         timeline.getKeyFrames().addAll(keyFrame1,keyFrame2, keyFrame3, keyFrame4);
-        timeline.playFromStart();`
+        timeline.playFromStart();
     }
 }
